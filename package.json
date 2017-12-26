@@ -1,0 +1,32 @@
+{
+  "name": "wildcard-lang",
+  "version": "1.0.0",
+  "description": "Emoji-based programming language",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "mocha": "^4.0.1",
+    "perplex": "^0.10.2",
+    "pratt": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --ui qunit --reporter spec",
+    "test.dot": "mocha --ui qunit --reporter dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugs/wildcard.git"
+  },
+  "keywords": [
+    "emoji"
+  ],
+  "author": "Jason Huggins <jrhuggins@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugs/wildcard/issues"
+  },
+  "homepage": "https://github.com/hugs/wildcard#readme"
+}
