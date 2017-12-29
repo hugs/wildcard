@@ -1,5 +1,5 @@
 const assert = require('assert')
-const run = require('../lib/interpret').run
+const run = require('../lib/run')
 const valid_programs = require('./valid_programs')
 const invalid_programs = require('./invalid_programs')
 

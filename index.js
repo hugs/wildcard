@@ -1,9 +1,9 @@
-const lexer = require('./lib/lex').lexer
-const parser = require('./lib/parse').parser
-const run = require('./lib/interpret').run
+const lex = require('./lib/lex')
+const parse = require('./lib/parse')
+const run = require('./lib/run')
 
 module.exports = {
-  'lexer'  : lexer,
-  'parser' : parser,
+  'lex'  : lex,
+  'parse' : parse,
   'run'    : run
 }
