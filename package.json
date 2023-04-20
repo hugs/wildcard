@@ -7,7 +7,7 @@
     "example": "example"
   },
   "dependencies": {
-    "mocha": "^4.0.1",
+    "mocha": "^10.2.0",
     "perplex": "^0.10.2",
     "pratt": "^0.5.0"
   },
